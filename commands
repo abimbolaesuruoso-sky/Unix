@@ -1,0 +1,3 @@
+
+# Show the ip address of an interface
+$ ifconfig en0 | grep inet | grep -v inet6 | cut -d ' ' -f2
